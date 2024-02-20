@@ -1,0 +1,140 @@
+.field {
+    /* width: 100%; */
+    /* background: #fbf3d6; */
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 25px;
+}
+.served-field {
+    width: 100%;
+    max-height: auto;
+    padding-top: 2rem;
+    height: 100%;
+    /* margin: 40px 50px; */
+    border: none;
+    width: 100%;
+}
+.served-field_icon{
+    display: inline-flex;
+    margin: 0 15px 0 0;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border-radius: 6px;
+    background-color: #f7eecd;
+}
+.field-row1 {
+    /* display: flex;
+    flex-wrap: wrap; */
+    margin-right: 25px;
+    margin-left: 68px;
+    padding-bottom: 0;
+}
+.field-row2 {
+    /* display: flex;
+    flex-wrap: wrap; */
+    margin-right: 25px;
+    margin-left: 30px;
+}
+.field-row2 h2{
+    font-size: 30px;
+    font-weight: 450;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+.field-row2 p{
+    margin-top: 0px;
+    font-size: 18px;
+    line-height: normal;
+    color: #444;
+    margin-left: 24px;
+    padding-left: 15px;
+}
+.field-row2 .cta_btn{
+  margin-bottom: 20px;
+  margin-top: -90px;
+}
+.field_btn {
+  position: relative;
+  min-width: 180px; /* Adjust the width */
+  height: 48px; /* Adjust the height */
+  border-radius: 6px;
+  border: 0;
+  /* box-shadow: 0px 3px 20px 0px rgba(142, 64, 30, 0.22); */
+  display: flex;
+  /* background-color: #e36209; */
+  justify-content: center;
+  align-items: center;
+  margin-left: 81%;
+  margin-top: -70px;
+  line-height: 1.5;
+  transition: all .7s ;
+  -webkit-transition: all .7s ;
+}
+
+.field_btn img {
+  width: 24px; /* Adjust the icon width */
+  margin-right: 8px; /* Adjust the space between icon and text */
+  color: #fff;
+}
+
+.field_btn span {
+  font-size: 18px; /* Adjust the font size of the text */
+}
+.field_btn:hover {
+  background: #ff6827; /* Change this color to your desired hover color */
+  /* box-shadow: 0px 10px 30px 0px rgba(142, 64, 30, 0.4); */
+  transform: translateY(-5px);
+}
+.field_btn .fieldBtn-img img:hover{
+  color: #090909;
+}
+.served_blocks_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .box-field {
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 150px;
+    /* width: 100%; */
+    box-sizing: border-box;
+    border-radius: 14px;
+    background-color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline;
+    width: calc(25% - 30px); /* Adjust width based on your layout */
+  }
+  
+  .box-field i {
+    display: block;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+  
+  .box-field img {
+    /* max-width: 100%; */
+    height: auto;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .box-field p {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 2px;
+    margin-right: 20px;
+  }
+  

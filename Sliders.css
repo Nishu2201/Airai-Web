@@ -1,0 +1,13 @@
+.slider-container {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.slide-image {
+    size: cover;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+  
+}

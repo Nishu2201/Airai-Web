@@ -1,0 +1,186 @@
+/* Gallery.css */
+/* 
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+:root {
+  --image-size: 500px;
+}
+
+/* html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+} */
+
+/* body {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: #131313;
+} */
+.Project-Gallery {
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding-left: 29%;
+    box-sizing: border-box;
+    /* width: 100%; */
+  height: 50vh;
+  padding-bottom: 10%;
+  padding-top: 50%;
+  /* background-color: #393939; */
+  /* padding: 20px; */
+}
+.gallery {
+    
+  max-width: 100px;
+  width: auto;
+  /* height: 22rem; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -25%;
+}
+
+.slider {
+  display: flex;
+  position: relative;
+}
+
+.wrapper {
+  position: relative;
+  display: none;
+  transition: transform 0.5s ease-out, left 0.5s ease-out;
+  /* height: 30vh; */
+  /* margin-bottom: 20px; */
+}
+
+/* 
+.flipped {
+  position: absolute;
+  bottom: calc(-100% - 70px);
+  transform: scaleY(-1);
+  height: 70%;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.wrapper::after {
+  content: "";
+  position: absolute;
+  bottom: calc(-100% - 70px);
+  left: 0;
+  width: 100%;
+  height: 70%;
+  background: linear-gradient(
+    180deg,
+    rgba(35, 35, 35, 0.75),
+    rgb(51, 51, 51) 90%
+  );
+  margin-top: 60px;
+} */
+
+.wrapper.selected {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  z-index: 3;
+  margin-top: 10px;
+}
+
+.wrapper.selected + .wrapper {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: calc(50% + var(--image-size) / 4);
+  transform: translate3d(-50%, -50%, 0) scale(0.9);
+  z-index: 2;
+}
+
+.wrapper.selected + * + .wrapper {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: calc(50% + var(--image-size) / 2);
+  transform: translate3d(-50%, -50%, 0) scale(0.8);
+  z-index: 1;
+}
+
+.wrapper.selected + * + * + .wrapper {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: calc(50% + var(--image-size));
+  transform: translate3d(-50%, -50%, 0) scale(0);
+  z-index: 0;
+}
+
+.arrows {
+  position: absolute;
+  bottom: 0;
+  width: 1900px;
+  display: flex;
+  justify-content: space-around;
+  z-index: 4;
+}
+
+.arrows .left,
+.arrows .right {
+  position: relative;
+  cursor: pointer;
+}
+
+.arrows .left.disabled,
+.arrows .right.disabled {
+  opacity: 0.5;
+}
+
+.arrows .left::before,
+.arrows .right::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 3rem;
+  height: 4px;
+  transform: translateY(-50%);
+}
+
+.arrows .left:before {
+  right: -100%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.arrows .right:before {
+  left: -100%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1)
+  );
+}
+
+.arrows svg {
+  width: 2.5rem;
+  height: 2.5rem;
+  fill: #7c2e2e;
+}
+
+img {
+  border-radius: 6px;
+}

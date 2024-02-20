@@ -1,0 +1,570 @@
+.backDev-page{
+    max-height: 80vh;
+    height: 57vh;
+    padding-top: 50px;
+    padding-bottom:5px;
+    display: flex;
+  }
+  .backDev-container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+  }
+  .d-flex{
+    display: flex;
+  }
+  .backDev-row {
+    display:flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .backDev-page .backDev_banner {
+    min-height: auto;
+  }
+  .backDev_banner {
+    max-width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .backDev-title {
+    background: linear-gradient(90deg, #f4d0ae 0%, rgba(255, 241, 228, 0.00) 103.85%);
+    /* padding: 10px 74px 10px 8px; */
+    padding-top: 10px;
+    padding-right: 74px;
+    padding-bottom: 10px;
+    padding-left: 2%;
+    border-radius: 8px;
+    gap: 5px;
+    margin-bottom: 24px;
+    margin-left: 13%;
+  }
+  
+  .backDev-title h3 {
+    margin: 0;
+    color: #D85D27;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  .backDev-page h1 {
+    color: #333;
+    /* font-size: 70px; */
+    font-weight: 700;
+    line-height: 80px;
+    /* padding-left: 1%; */
+    text-transform: capitalize;
+    margin-bottom: 13px;
+  }
+  .backDev_banner h1 {
+  
+    font-size: 45px;
+    line-height: 74px;
+    margin-left: 0%;
+    margin-top: -10px;
+    
+  }
+  .backDev_banner span{
+    color: #D85D27;
+  }
+  .backDev_banner .backDev-para {
+    margin-left: 75px;
+    text-align: justify;
+    color: #797878;
+  }
+  .backDev-para {
+    font-size: 17px;
+    color: #585858;
+    line-height: 27px;
+    font-weight: 400;
+    padding-left: 70px;
+  }
+  .backDev-para {
+    margin-top: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  
+ 
+  .scrollable_bg {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    box-align: center;
+  }
+
+  @media (max-width: 991px){
+    .backDev_banner h1 {
+      line-height: 38px;
+    }
+    }
+    @media (max-width: 991px) {
+    .backDev_banner h1 {
+      line-height: 38px;
+    }
+    }
+
+
+    /* second section code start here */
+    .backrole-page{
+      margin-top: 78px;
+    }
+    .Role-img {
+      margin-left: 10%;
+      padding-left: 50px;
+     
+    }
+
+    .backrole_banner h1 {
+  
+      font-size: 30px;
+      line-height: 74px;
+      margin-left: -10px;
+      margin-top: -10px;
+    }
+
+    .Role-para{
+      margin-top: -30px;
+      margin-left: 13%;
+    }
+
+    .backRole-btn {
+      position: relative;
+      /* min-width: 100px; */
+      width: 200px;
+      height: 48px;
+      border-radius:15px;
+      border: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 14%;
+      margin-right: -15%;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      line-height: 1.5;
+      transition: all .7s;
+      background-color: #ebe4e4;
+      -webkit-transition: all .7s;
+  }
+  
+  .backRole-btn .bckRole-para {
+    text-transform: uppercase;
+    /* letter-spacing: 2px; */
+  color: #000000;
+  padding-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    /* padding-right: -10px; */
+    
+  }
+  
+  .Bckrolebtn-img {
+    margin-left: 0%;
+    width: 30px;
+    height: 30px;
+    /* padding-right: 18px; */
+    background-color: none;
+    /* color: #fff; */
+     transform:  rotateZ(90deg);  
+     /* scale(1.1) translateX(50px);  */
+  }
+  
+  .backRole-btn:hover {
+      background: #ffffff;
+      transform: translateY(-5px);
+      box-shadow: -3px 2px 20px -3px #0b0b0b;
+  }
+  
+  /* .backRole-btn span p:hover {
+      color: #f1f1f1;
+  } */
+
+
+
+
+    /* back Airai css start here */
+
+    .backUs-section {
+        width: 100%;
+        height: auto;
+        margin: 5px 0;
+        margin-top: -8%;
+        background-color: #fbf3d6;
+    }
+    
+    .back-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .backend-section-title {
+        margin-bottom: 20px;
+    }
+    
+    .backUs_icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        padding: 6px;
+        margin-top: 30px;
+        margin-left: -30px;
+        border-radius: 1px;
+    }
+    
+    .backend-section-title h2 {
+        margin-top: -35px;
+        margin-left: 25px;
+        font-weight: 400;
+    }
+    
+    .backend-section-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -30px;
+    }
+    
+    .backend-section {
+        max-width: 800px;
+        margin-bottom: 20px;
+    }
+    
+    .backend-section h3 {
+        font-size: 30px;
+        margin-left: -38%;
+        font-weight: 450;
+    }
+    
+    .backend-section p {
+        font-size: 17px;
+        margin-left: -42%;
+        font-weight: 400;
+    }
+    
+    .backUs-btn {
+        position: relative;
+        min-width: 100px;
+        height: 48px;
+        border-radius: 6px;
+        border: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 81%;
+        margin-right: -15%;
+        margin-top: -80px;
+        margin-bottom: 20px;
+        line-height: 1.5;
+        transition: all .7s;
+        -webkit-transition: all .7s;
+    }
+    
+    .backUs-btn span p {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .backUs-img {
+        width: 24px;
+        margin-right: 8px;
+        color: #fff;
+    }
+    
+    .backUs-btn:hover {
+        background: #ff6827;
+        transform: translateY(-5px);
+    }
+    
+    .backUs-btn span p:hover {
+        color: #f1f1f1;
+    }
+    
+    .backend-box {
+        display: flex;
+        flex-wrap: wrap;
+       
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-left: 20%;
+        padding-bottom: 70px;
+    }
+    
+    .backend-box {
+        max-width: 600px;
+        width: 400px;
+        margin-left: 10px;
+        margin-right: 45px;
+        position: relative;
+        padding-left: -70%;
+    }
+    
+    .backend-box::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-left: 45px;
+        margin-right: 35px;
+        height: 100%;
+        width: 2px;
+        background: linear-gradient(transparent, #ff7e5f, #f0a1a1, transparent);
+    }
+    
+    .back-box  {
+       
+        padding-left:30px;
+        margin-right: 80px;
+        padding-right: -30px;
+    }
+    h5{
+    font-size: 15px;
+     }
+   
+    .backend-box .back-para{
+        padding-left: 2px;
+        margin-top: -20px;
+    }
+
+/* section role css start here */
+    .backrole-page{
+      max-height: 80vh;
+      height: 57vh;
+      padding-top: 50px;
+      display: flex;
+    }
+     .backrole-container{
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .backrole-row {
+      display:flexbox;
+      display: flex;
+      flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+    .backrole-page .backrole_banner {
+      min-height: auto;
+    }
+    .backrole_banner {
+      max-width: 80%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+
+
+    
+/* cards css start here  */
+    
+    .BackEndcards  {
+      height: 95vh;
+      align-items: center;
+      margin-top: 10px;
+      margin-bottom: 10%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: #333;
+    } 
+    .RoleCard-container {
+      height: 80%;
+      align-items: center;
+      justify-content: center;
+      /* perspective: 90rem; */
+      /* perspective-origin: 30% 60%; */
+      /* overflow: hidden; */
+    }
+    .Roleheading-cards{
+      text-align: center;
+      color: #fff;
+      text-align: center;
+      font-size: 50px;
+      padding-top: 45px;
+     padding-right: 20px;
+      margin-bottom: -10px;
+    }
+    .beckend_part{
+      width: 80px;
+      color: #3546f0;
+      position: relative;
+    }
+    .CardsSlide{
+      margin-top:65px;
+      
+    }
+    .BackRolecard {
+      /* background: url() center; */
+      color: #fff;
+      margin-left: 30px;
+      margin-right: 50px;
+      margin-bottom: 45px;
+      border-radius: 8px;
+      /* padding: 0px 15px; */
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-bottom: 70px;
+      /* width: 200px; */
+      height: 300px;
+      transition: 0.5s ease;
+      overflow: hidden;
+      transform: translate(0);
+    }
+    
+    .BackRolecard::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      width: 450px;
+      height: 750px;
+      opacity: 0.85;
+    }
+    .header-part{
+      padding-top: 10px;
+      height: 30px;
+      padding-bottom: 60px;
+    }
+    .Rolecards-headings{
+    padding-top: 30px;
+    margin-left: 5px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+    line-height: 1.8rem;
+    }
+    .Rolecards-text{
+      color: #f7f4f4;
+     text-align: left;
+     padding-left:30px ;
+      padding-right: 25%;
+    }
+    .rolecard-1 {
+      /* background-size: cover; */
+      transform: scale(1.02);
+      margin-right: 60px;
+      padding-right: -10%;
+    }
+    .Roleheading-Img2 {
+      width: 40px;
+      padding-top: 20px;
+      /* padding-top: 40px; */
+      margin-bottom: -20%;
+      margin-left: 29px;
+      padding-right: -15px;
+    }
+    .Roleheading-Img1{
+      width: 35px;
+      padding-top: 20px;
+      margin-bottom: -18%;
+      margin-left: 30px;
+    }
+    .Roleheading-Img3 {
+      width: 35px;
+      padding-top: 20px;
+      margin-bottom: -18%;
+      margin-left: 30px;
+      padding-right: -20px;
+    }
+    /* .cards-headings  {
+      padding-top: -7px;
+     padding-bottom: -40px;
+    } */
+    
+   
+/*    
+    .RoleDiv-transform {
+      display: flex;
+      padding-left: 35px;
+      padding-right: 35px;
+      transform: rotateX(10deg) rotateY(15deg) rotateZ(-9deg) scale3d(1, 1, -0.9) 
+        scale(1.1) translateX(50px);
+    } */
+    
+   
+    
+    .BackRolecard h2 {
+      text-transform: capitalize;
+      padding-left: 70px;
+      padding-top: -8px;
+      margin-top: 30px;
+      /* text-align: center; */
+    }
+    
+    .BackRolecard h4 {
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      margin-top: 48px;
+      text-align: center;
+    }
+    
+   
+    
+    .rolecard-1:hover {
+      transform: scale(1.11);
+      box-shadow: -7px 4px 28px -3px #b527cf;
+    }
+    
+    .rolecard-1::before {
+      background: linear-gradient(90deg, #b527cf 0%, #3546f0 100%);
+    }
+    .rolecard-2 {
+      background-size: cover;
+      transform: scale(1.01);
+      margin-right: 31px;
+    }
+    
+    .rolecard-2:hover {
+      transform: scale(1.1);
+      box-shadow: -7px 4px 28px -3px #3bd9d9;
+    }
+    
+    .rolecard-2::before {
+      background: linear-gradient(90deg, #3bd9d9 0%, #8035f0 100%);
+    }
+    .rolecard-3 {
+      background-size: cover;
+    }
+  
+    .rolecard-3:hover {
+      transform: scale(1.08);
+      box-shadow: -7px 4px 28px -3px #ff9500;
+    }
+    
+    .rolecard-3::before {
+      background: linear-gradient(90deg, #ff9500 0%, #d5cb0f 100%);
+    }
+    
+    /* Contect para css start here */
+    .BackEndh2-para{
+      padding-left: 4px;
+    }
+
+    .Backcontact-para{
+      margin-top: -20px;
+  padding-left: 5px;
+margin-bottom: 30px;
+    }

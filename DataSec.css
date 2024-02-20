@@ -1,0 +1,118 @@
+/* :root {
+    --green: #27ae60;
+    --black: #444;
+    --light-color: #777;
+    --bg-color: #e6e6e6;
+    --border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  --box-shadow: 0.4rem 0.4rem 1rem #ccc inset, 0.4rem 0.4rem 0.4rem 1rem #fff inset;
+    --box-shadow-insert: 0.4rem 0.4rem 1rem #772727 inset, 0.4rem 0.4rem 1rem #fff inset; 
+    --box-background-left: #fdf3ce;
+    --box-background-right: #f8f6f4; 
+} */
+
+.data {
+    min-height: auto;
+    height: 100%;
+    /* padding: 2rem; */
+    border-radius: 0.5rem;
+    margin: 40px 7%;
+    border-radius: 14px;
+    border: #444;
+    border: 1px solid #d6d5d5;
+    padding: 3px 10px;
+}
+.data p{
+    align-items: center;
+    text-align: center;
+    color: #f37775;
+    font-size: 1.5rem;
+   
+}
+.text{
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+   
+    padding-left: 30px;
+}
+.data .dataSec-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 3%;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    gap: 0; /* Remove the gap between columns */
+}
+
+.data .dataSec-row .NO-data {
+    height: 15%;
+    width: 20%; /* Full width of the container */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    text-align: center; */
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 15px; 
+    margin-top: 20px;
+    margin-right: 50px;
+   
+    /* box-shadow: var(--box-shadow); */
+    transition: box-shadow 0.3s ease, transform 0.5s ease;
+    transform: translateY(0);
+    opacity: 0;
+    /* background: linear-gradient(to right, var(#fdf3ce), var(#f8f6f4),var(#f8f6f4)); */
+}
+.NO-data{
+    border-radius: 10px;
+    /* border: 2px solid ; */
+    background: linear-gradient(90deg, #f7cfa9 10%, #fafafa 60.85%);
+}
+.data .dataSec-row .NO-data h3 {
+    font-size: 1.5rem;
+    color: var(--black);
+    line-height: 1.2;
+    text-align: left;
+    margin-right: 80px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    padding-left: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.data .dataSec-row .NO-data p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #f84f4f;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 5px; /* Removed margin-bottom */
+    /* padding-right: 42%; */
+    padding-left: 5%;
+    /* padding-right: 60%; */
+}
+
+/* .data .row > div:hover h3 {
+    color: var(--green);
+} */
+
+/* Add fade-in animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply animation to boxes */
+.data .dataSec-row .NO-data {
+    animation: fadeInUp 0.8s ease-in-out forwards;
+}

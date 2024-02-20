@@ -1,0 +1,76 @@
+.Innovation {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #fbf3d6;
+  }
+  
+  .Innovation-field {
+    width: 100%;
+    max-height: auto;
+    padding-top: 2rem;
+    height: 100%;
+    line-height: 1.8;
+  }
+  
+  .Innovation_icon {
+    display: inline-flex;
+    /* margin: 0 15px 0 0; */
+    margin-left: 85px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 6px;
+
+    padding-bottom: 0;
+    border-radius: 6px;
+    background-color: #f7eecd;
+  }
+  
+  .Innovation-field .inno-row {
+    padding-top: 20px;
+    display: flex;
+    gap: 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Innovation .inno-field-row2 {
+    width: 68%; /* Adjust the width as needed */
+    /* padding-top: -30px; */
+    margin-top: -13%;
+    padding-right: 10px;
+    margin-right: 0;
+    line-height: 1.8rem;
+  }
+  .inno-field-row2 h2{
+    padding-left: 22%;
+    font-size: 30px;
+    line-height: 40px;
+    /* padding-top: -0px; */
+    /* padding-right: 0px; */
+  }
+  .inno-field-row2 p{
+    padding-left: 22%;
+  }
+  .InnovPic {
+    margin-top: -10%;
+    margin-right: 35px;
+    margin-bottom: 40px;
+    width: 550px; /* Adjust the width as needed */
+    height:450px;
+  }
+  
+  @media (max-width: 767px) {
+    .Innovation-field .inno-row {
+      flex-direction: column;
+    }
+  
+    .Innovation .inno-field-row2,
+    .Innovation .InnovPic {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,202 @@
+/* Styles for the slide container */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+  background: #ffffff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f6ceab; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000000; 
+}
+.header-slider{
+  position: relative;
+  height: 70vh;
+  width: auto;
+  align-items: center;
+}
+.slide-container {
+  overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+ 
+  /* Styles for the row containing text and image */
+  .header-row {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Styles for the text container */
+  .slide-text {
+    padding: 20px;
+    flex-grow: 1;
+  }
+  .slidesDev-title {
+    background: linear-gradient(90deg, #f4d0ae 0%, rgba(255, 241, 228, 0.00) 103.85%);
+    /* padding: 10px 74px 10px 8px; */
+    padding-top: 10px;
+    padding-right: 74px;
+    padding-bottom: 10px;
+    padding-left: 2%;
+    border-radius: 8px;
+    gap: 5px;
+    margin-bottom: 24px;
+    margin-left: 8%;
+  }
+  
+  .slidesDev-title h2 {
+    margin: 0;
+    color: #D85D27;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  .slide-description  h3 {
+    font-size: 45px;
+    line-height: 55px;
+    padding-left: 58px;
+    /* padding-right: -30px; */
+     /* Adjust as needed */
+  }
+  
+  .slide-description p {
+    font-size: 20px;
+    position: relative;
+    line-height: 40px;
+    padding-left: 60px;
+  }
+  /* Styles for the slide title */
+  /* .slide-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+  } */
+
+  .slick-dots {
+    display: none;
+  }
+  
+  /* Styles for the image container */
+  .slide-image-container {
+    padding-left:80px; 
+    margin-top: -90%;
+    margin-bottom: -50%;
+    padding-right: 20px;
+    /* padding-top: -50px; */
+    flex-shrink: 0; /* Prevent image from shrinking */
+    width: auto;
+    height:auto;
+  }
+  
+  /* Styles for the slide image */
+  .slide-image {
+    position: absolute;
+    max-width: 100%;
+    width: 550px;
+    height: 100%;
+    border-radius: 10px;
+    padding-left: 50px; 
+    /* margin-bottom: -50px; */
+    margin-top: -90px;
+    margin-right: 20px;
+  }
+  /* .page-header{
+    display: flex;
+  } */
+  /* Styles for the vertical navbar */
+  /* .page-header .vertical-navbar {
+    position: fixed; 
+    margin: auto;
+    /* top: 50%; Align vertically in the middle */
+    /* right: 0px; Align to the right side */
+   /* align-items: center; */
+    /* transform: translateY(50%);  */
+   /* transition: transform 0.5s ease-out, right 0.5s ease-out;  Center vertically 
+  } */
+  /* .vertical-navbar  {
+    top: 50%;
+    right: 0px;
+    align-items: center;
+    transform: translateY(50%);
+  } 
+
+  .vertical-navbar ul {
+    list-style-type: none; 
+    padding: 0;
+    
+    
+  }*/
+  
+  /* Styles for navbar list items */
+  /* .vertical-navbar li {
+    
+    margin-bottom: 10px;
+    padding-right: 0;
+    transition: background-color 0.3s ease, border 0.3 ease;
+  } */
+
+  /* Styles for navbar links */
+
+@keyframes fadeInOut {
+    0% {
+      opacity: 0; /* Start with opacity 0 */
+    }
+    100% {
+      opacity: 1; /* End with opacity 1 */
+    }
+  }
+
+.marquee-container {
+  overflow: hidden;
+  width: 50%;
+opacity: 1;
+display: inline-block;
+height: 100px;
+ filter: grayscale(100%);
+}
+
+.marquee-container .image-wrapper {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  margin: 50px 80px;
+  filter: grayscale(100%);
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  transition: filter 0.3s ease;
+  padding-left: auto;
+  padding-right: 40px;
+}
+
+ .marquee-container:hover  {
+  filter: grayscale(0%);
+  /* opacity: 0; */
+}
+.marquee-container img {
+  padding-left: 40px;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

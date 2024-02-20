@@ -1,0 +1,129 @@
+.flipCard-notification {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background: rgb(225, 223, 225);
+  }
+  
+  .flipCard-notification .container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+    display: block;
+    perspective: 1000px;
+  }
+  
+  .flipCard-notification .row-flip {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .flipCard-notification .col-lg-3 {
+    flex: 0 0 24%; /* Adjust the width as needed */
+    margin-bottom: 20px;
+  }
+  
+  .flipCard-notification .card-container {
+    height: 300px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    box-sizing: border-box;
+  }
+  
+  .flipCard-notification .card-container.flipped .flipCardFront {
+    transform: rotateY(180deg);
+  }
+  
+  .flipCard-notification .card-container.flipped .flipCardBack {
+    transform: rotateY(0deg);
+  }
+  
+  .flipCard-notification .card-container .flipCardFront,
+  .flipCard-notification .card-container .flipCardBack {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    display: block;
+    background: rgb(248, 246, 234);
+    box-shadow: 10px 10px 5px rgb(95, 77, 99);
+    padding: 10px;
+    position: absolute;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition: transform ease 500ms;
+  }
+  
+  .flipCard-notification .card-container .flipCardFront {
+    z-index: 2;
+    transform: rotateY(0deg);
+  }
+  
+  .flipCard-notification .card-container .flipCardBack {
+    background: rgb(248, 246, 234);
+    transform: rotateY(-180deg);
+    padding: 20px;
+    font-size: 20px;
+  }
+  
+  .flipCard-notification .flipCardImageArea {
+    position: relative;
+  }
+  
+  .flipCard-notification .flipCardImageArea .card-image {
+    width: 40%;
+    border-radius: 10px;
+  }
+  
+  /* .flipCard-notification .flipCardImageArea .title {
+    font-size: 34px;
+    position: absolute;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    bottom: 0;
+    left: 0;
+    color: rgb(248, 246, 234);
+  } */
+  
+  .flipCard-notification .flipCardMainArea {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .flipCard-notification .flipCardMainArea .flipCardPost {
+    height: 100%;
+  }
+  
+  .flipCard-notification .flipCardMainArea .flipCardPost .date {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  
+  .flipCard-notification .flipCardMainArea .flipCardPost .read-more {
+    font-size: 20px;
+    position: relative;
+    bottom: 0px;
+    text-align: right;
+  }
+  
+  .flipCard-notification .flipCardMainArea .flipCardPost .flipCardContent {
+    height: 90%;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+  }
+  

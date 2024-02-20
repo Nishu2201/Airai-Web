@@ -1,0 +1,354 @@
+.webDev-page{
+    max-height: 80vh;
+    height: 57vh;
+    padding-top: 50px;
+    margin-bottom: 8%;
+    display: flex;
+  }
+  .webDev-container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+  }
+  .d-flex{
+    display: flex;
+  }
+  .webDev-row {
+    display:flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .webDev-page .webDev_banner {
+    min-height: auto;
+  }
+  .webDev_banner {
+    max-width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .webDev-title {
+    background: linear-gradient(90deg, #f4d0ae 0%, rgba(255, 241, 228, 0.00) 103.85%);
+    /* padding: 10px 74px 10px 8px; */
+    padding-top: 10px;
+    padding-right: 74px;
+    padding-bottom: 10px;
+    padding-left: 2%;
+    border-radius: 8px;
+    gap: 5px;
+    margin-bottom: 24px;
+    margin-left: 8%;
+  }
+  
+  .webDev-title h3 {
+    margin: 0;
+    color: #D85D27;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  .webDev-page h1 {
+    color: #333;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    padding-left: -5%;
+    text-transform: capitalize;
+    margin-bottom: 13px;
+  }
+  .webDev_banner h1 {
+    /* color: #1a1a1a; */
+    font-size: 45px;
+    line-height: 74px;
+    margin-left: 16%;
+    margin-top: -10px;
+    /* margin: 0 0 20px; */
+  }
+  .webDev_banner span{
+    color: #D85D27;
+  }
+  .webDev_banner .webDev-para {
+    margin-left: 80px;
+    text-align: justify;
+    color: #797878;
+  }
+  .webDev-para {
+    font-size: 17px;
+    color: #585858;
+    line-height: 27px;
+    font-weight: 400;
+    padding-left: 70px;
+  }
+  .webDev-para {
+    margin-top: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  
+ 
+  .scrollable_bg {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    box-align: center;
+  }
+  
+  
+  
+  @media (max-width: 991px){
+    .webDev_banner h1 {
+      line-height: 38px;
+    }
+    }
+    @media (max-width: 991px) {
+    .webDev_banner h1 {
+      line-height: 38px;
+    }
+    }
+  
+
+/* slider css start here  */
+.WebDevUs-section {
+  width: 100%;
+  height: auto;
+  margin: 35px 0;
+  /* background-color: #fbf3d6; */
+}
+
+.WebDev-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.custom-section-title {
+  margin-bottom: 20px;
+}
+
+.WebDevUs_icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 6px;
+  margin-top: 30px;
+  margin-left: -30px;
+  border-radius: 1px;
+}
+
+.custom-section-title h2 {
+  margin-top: -35px;
+  margin-left: 25px;
+  font-weight: 400;
+}
+
+.custom-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.custom-section {
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.custom-section h3 {
+  font-size: 30px;
+  margin-left: -38%;
+  font-weight: 450;
+}
+
+.custom-section p {
+  font-size: 17px;
+  margin-left: -42%;
+  font-weight: 400;
+}
+
+.WebDevUs-btn {
+  position: relative;
+  min-width: 100px;
+  height: 48px;
+  border-radius: 6px;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 81%;
+  margin-right: -15%;
+  margin-top: -80px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  transition: all .7s;
+  -webkit-transition: all .7s;
+}
+
+.WebDevUs-btn span p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.WebDevUs-img {
+  width: 24px;
+  margin-right: 8px;
+  color: #fff;
+}
+
+.WebDevUs-btn:hover {
+  background: #ff6827;
+  transform: translateY(-5px);
+}
+
+.WebDevUs-btn span p:hover {
+  color: #f1f1f1;
+}
+
+.custom-box {
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 500px; */
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-left: 20%;
+  padding-bottom: 70px;
+}
+
+.custom-box {
+  max-width: 600px;
+  width: 400px;
+  margin-left: 10px;
+  margin-right: 45px;
+  position: relative;
+  padding-left: -70%;
+}
+
+.custom-box::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-left: 45px;
+  margin-right: 35px;
+  height: 100%;
+  width: 2px;
+  background: linear-gradient(transparent, #ff7e5f, #f0a1a1, transparent);
+}
+
+.WebDev-box  {
+  /* width: 300px; */
+  padding-left:30px;
+  margin-right: 80px;
+  padding-right: -30px;
+}
+h5{
+font-size: 15px;
+}
+/* .choose-box .WebDev-para {
+  width: 500px;
+  margin-right: 20%;
+  margin-left: -15px;
+} */
+.custom-box .WebDev-para{
+  padding-left: 2px;
+  margin-top: -20px;
+}
+    .webDev-box {
+        /* display: flex;
+        flex-wrap: wrap; */
+        width: 400px;
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-left: 20%;
+        padding-bottom: 70px;
+    }
+    
+    .webDev-box {
+        max-width: 600px;
+        width: 400px;
+        height: 50%;
+        margin-left: 10px;
+        margin-right: 45px;
+        position: relative;
+        margin-left: 10%;
+    }
+    
+    .webDev-box::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-left: 45px;
+        margin-right: 35px;
+        height: 100%;
+        width: 2px;
+        background: linear-gradient(transparent, #ff7e5f, #f0a1a1, transparent);
+    }
+    
+    .choose-box  {
+        /* width: 300px; */
+        padding-left:30px;
+        margin-right: 80px;
+        padding-right: -30px;
+    }
+    h5{
+    font-size: 15px;
+     }
+    /* .choose-box .WebDev-para {
+        width: 500px;
+        margin-right: 20%;
+        margin-left: -15px;
+    } */
+    .webDev-box .WebDev-para{
+        padding-left: 2px;
+        margin-top: -20px;
+    }
+/* contect form para css  */
+    .Webh2-para{
+      padding-left: 4px;
+    }
+    .Webcontact-para{
+      margin-top: -8px;
+  padding-left: 5px;
+margin-bottom: 30px;
+    }
+
+
+    .send-btn-Web{
+      font-family: 'Quicksand', sans-serif;
+      font-weight: bold;
+      font-size: 16px;
+      color: #f2f6f8;
+      height: 2.5rem;
+      line-height: 2.5rem;
+      padding: 0 2rem;
+      margin-top: 8px;
+      margin-left: 20%;
+      margin-bottom: 15px;
+      border: 0;
+      border-radius: 3rem;
+      background-image:linear-gradient(131deg, #ffd340, #f07111, #f6c68f, #f8a394);
+      background-size: 300% 100%;
+      transition: all 0.3s ease-in-out;
+    }
+  
+    .send-btn-Web:hover {
+      background-image:linear-gradient(131deg, #ff4d40, #f18c3e, #de3c3c, #e93515);
+      box-shadow: 0 0.8em 0.8em -0.4em #ef6d09ba;
+      background-size: 100% 100%;
+      transform: translateY(-0.15em);
+    }

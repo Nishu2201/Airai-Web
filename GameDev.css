@@ -1,0 +1,507 @@
+.gameDev-page{
+    max-height: 80vh;
+    height: 65vh;
+    padding-top: 50px;
+    padding-bottom:35px;
+    display: flex;
+    overflow: hidden;
+  }
+  .gameDev-container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+  }
+  .d-flex{
+    display: flex;
+  }
+  .gameDev-row {
+    display:flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .gameDev-page .gameDev_banner {
+    min-height: auto;
+  }
+  .gameDev_banner {
+    max-width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .gameDev-title {
+    background: linear-gradient(90deg, #f4d0ae 0%, rgba(255, 241, 228, 0.00) 103.85%);
+    /* padding: 10px 74px 10px 8px; */
+    padding-top: 10px;
+    padding-right:-50px;
+    padding-bottom: 10px;
+    padding-left: 2%;
+    border-radius: 8px;
+    gap: 5px;
+    margin-bottom: 24px;
+    margin-left: 14%;
+  }
+  
+  .gameDev-title h4 {
+    display: inline;
+    margin: 0;
+    color: #D85D27;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 29px;
+  }
+  .gameDev-page h1 {
+    color: #333;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    padding-left: -5%;
+    text-transform: capitalize;
+    margin-bottom: 13px;
+  }
+  .gameDev_banner h1 {
+    /* color: #1a1a1a; */
+    font-size: 45px;
+    line-height: 74px;
+    margin-left: 19%;
+    margin-top: -10px;
+    /* margin: 0 0 20px; */
+  }
+  .gameDev_banner span{
+    color: #D85D27;
+  }
+  .gameDev_banner .gameDev-para {
+    margin-left: 75px;
+    text-align: justify;
+    color: #797878;
+  }
+  .gameDev-para {
+    font-size: 17px;
+    color: #585858;
+    line-height: 27px;
+    font-weight: 400;
+    padding-left: 70px;
+  }
+  .gameDev-para {
+    margin-top: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  
+ 
+  .scrollable_bg {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    box-align: center;
+  }
+  
+  
+  
+  @media (max-width: 991px){
+    .gameDev_banner h1 {
+      line-height: 38px;
+    }
+    }
+    @media (max-width: 991px) {
+    .gameDev_banner h1 {
+      line-height: 38px;
+    }
+    }
+
+
+    .GameUs-section {
+        width: 100%;
+        height: auto;
+        margin: 35px 0;
+        /* overflow: hidden; */
+        
+        background-color: #fbf3d6;
+    }
+    
+    .Game-container {
+      position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .gDev-section-title {
+        margin-bottom: 20px;
+    }
+    
+    .GameUs_icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        padding: 6px;
+        margin-top: 30px;
+        margin-left: -30px;
+        border-radius: 1px;
+    }
+    
+    .gDev-section-title h2 {
+        margin-top: -35px;
+        margin-left: 25px;
+        font-weight: 400;
+    }
+    
+    .gDev-section-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -30px;
+    }
+    
+    .gDev-section {
+        max-width: 800px;
+        margin-bottom: 20px;
+    }
+    
+    .gDev-section h3 {
+        font-size: 30px;
+        margin-left: -30%;
+        font-weight: 450;
+    }
+    
+    .gDev-section p {
+        font-size: 17px;
+        margin-left: -33%;
+        font-weight: 400;
+    }
+    
+    .GameUs-btn {
+        position: relative;
+        min-width: 50px;
+        height: 48px;
+        border-radius: 6px;
+        border: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 81%;
+        margin-right: -15%;
+        margin-top: -80px;
+        margin-bottom: 20px;
+        line-height: 1.5;
+        transition: all .7s;
+        -webkit-transition: all .7s;
+    }
+    
+    .GameUs-btn span p {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .GameUs-img {
+        width: 24px;
+        margin-right: 8px;
+        color: #fff;
+    }
+    
+    .GameUs-btn:hover {
+        background: #ff6827;
+        transform: translateY(-5px);
+    }
+    
+    .GameUs-btn span p:hover {
+        color: #f1f1f1;
+    }
+    
+    .gDev-box {
+        display: flex;
+        flex-wrap: wrap;
+        /* width: 500px; */
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-left: 20%;
+        padding-bottom: 70px;
+    }
+    
+    .gDev-box {
+        max-width: 600px;
+        width: 400px;
+        margin-left: 10px;
+        margin-right: 45px;
+        position: relative;
+        padding-left: -70%;
+    }
+    
+    .gDev-box::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-left: 45px;
+        margin-right: 35px;
+        height: 100%;
+        width: 2px;
+        background: linear-gradient(transparent, #ff7e5f, #f0a1a1, transparent);
+    }
+    
+    .Game-box  {
+        /* width: 300px; */
+        padding-left:-10px;
+        margin-right: 50px;
+        padding-right: -30px;
+    }
+    h5{
+    font-size: 15px;
+     }
+    .Game-para {
+        /* width: 500px; */
+        margin-right: 8%;
+        margin-left: 3px;
+        padding-left: 2px;
+        padding-right: 0px;
+    }
+     .Game-para p{
+        /* text-align: center; */
+        margin-left: 5%;
+       
+        /* margin-top: -20px; */
+
+    }
+
+
+    /* Crds css start here  */
+    
+    
+    .Gamecards  {
+      height: 100vh;
+      margin-top: 70px;
+      overflow: hidden;
+      /* margin-bottom: 10%; */
+      background-color: #333;
+    } 
+    .Gheading-Img2 {
+      width: 40px;
+      /* padding-top: 40px; */
+      margin-bottom: -74px;
+      margin-left: 20px;
+      margin-right: -30%;
+    }
+    .Gheading-Img1{
+      width: 35px;
+      margin-bottom: -68px;
+      margin-left: 9px;
+    }
+    .Gheading-Img3 {
+      width: 35px;
+      margin-bottom: -65px;
+      margin-left: 21px;
+      padding-right: -20px;
+    }
+    .heading-1{
+      margin-left: -15px;
+    }
+    .heading-2{
+     margin-left: 4px;
+    }
+    /* .cards-headings  {
+      padding-top: -7px;
+     padding-bottom: -40px;
+    } */
+    .GameHead{
+      text-align: center;
+      color: #fff;
+      text-align: center;
+      font-size: 50px;
+      padding-top: 35px;
+     padding-right: 20px;
+      /* margin-bottom: -70px; */
+    }
+    .gamcard-container {
+      /* background-color: #333; */
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      /* perspective: 90rem; */
+      perspective-origin: 30% 60%;
+    }
+   
+    .card-transform {
+      height: 450px;
+      display: flex;
+      padding-left: 35px;
+      padding-right: 35px;
+      margin-bottom: 15%;
+
+      /* transform: rotateX(10deg) rotateY(15deg) rotateZ(-9deg) scale3d(1, 1, -0.9) */
+        /* scale(1.1) translateX(50px); */
+    }
+    
+    .Gcard {
+      /* background: url() center; */
+      color: #fff;
+      margin-left: 10px;
+      margin-right: 20px;
+      margin-bottom: 45px;
+      border-radius: 8px;
+      /* padding: 0px 15px; */
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 390px;
+      /* height: 400px; */
+      transition: 0.5s ease;
+      overflow: hidden;
+      transform: translate(0);
+    }
+    
+    .Gcard::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      opacity: 0.85;
+    }
+    
+    .Gcard h2 {
+      /* text-transform: capitalize; */
+      padding-left: 60px;
+      padding-top: -8px;
+      margin-top: 30px;
+      padding-right: 20px;
+      margin-right: -80px;
+      /* text-align: center; */
+    }
+    
+    .Gcard h4 {
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      margin-top: 48px;
+      text-align: center;
+    }
+    
+    .Gcard-1 {
+      background-size: cover;
+      transform: scale(1.02);
+      margin-right: 40px;
+      padding-right: -10%;
+    }
+    
+    .Gcard-1:hover {
+      transform: scale(1.11);
+      box-shadow: -7px 4px 28px -3px #b527cf;
+    }
+    
+    .Gcard-1::before {
+      background: linear-gradient(90deg, #b527cf 0%, #3546f0 100%);
+    }
+    .Gcard-2 {
+      background-size: cover;
+      transform: scale(1.01);
+      margin-right: 31px;
+    }
+    
+    .Gcard-2:hover {
+      transform: scale(1.1);
+      box-shadow: -7px 4px 28px -3px #3bd9d9;
+    }
+    
+    .Gcard-2::before {
+      background: linear-gradient(90deg, #3bd9d9 0%, #8035f0 100%);
+    }
+    .Gcard-3 {
+      background-size: cover;
+    }
+    .cards-text{
+      color: #f7f4f4;
+    }
+    .Gcard-3:hover {
+      transform: scale(1.08);
+      box-shadow: -7px 4px 28px -3px #ff9500;
+    }
+    
+    .Gcard-3::before {
+      background: linear-gradient(90deg, #ff9500 0%, #d5cb0f 100%);
+    }
+    
+
+    /* contact form css start here */
+    /* .quote_section{
+      height: 50%;
+    } */
+.gameCon-container{
+  /* width: 100%; */
+  /* overflow: hidden; */
+  /* height: 70%; */
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  /* padding-bottom: 10px; */
+  margin-right: auto;
+  margin-left: auto;
+}
+/* .game-contact_Wrapper{
+  height: 50%;
+ 
+} */
+/* .Game-contact-idea .game-form_section {
+  
+}*/
+    .gameh2-para{ 
+      padding-left: 4px;
+      padding-top: 30px;
+    }
+    .gamecontact-para{
+      margin-top: -12px;
+      padding-left: 5px;
+    margin-bottom: 30px;
+    }
+    .gameContext-para {
+      font-size: 17px;
+    color: #585858;
+    line-height: 27px;
+    font-weight: 400;
+    margin-top: 0;
+    padding-bottom: 10px;
+    display: block;
+    padding-left: 5px;
+    margin-bottom: 45px;
+    margin-top: 2%;                                       
+    }
+    .send-btn-Game{
+      font-family: 'Quicksand', sans-serif;
+      font-weight: bold;
+      font-size: 16px;
+      color: #f2f6f8;
+      height: 2.5rem;
+      line-height: 2.5rem;
+      padding: 0 2rem;
+      margin-top: 8px;
+      margin-left: 20%;
+      margin-bottom: 15px;
+      border: 0;
+      border-radius: 3rem;
+      background-image:linear-gradient(131deg, #ffd340, #f07111, #f6c68f, #f8a394);
+      background-size: 300% 100%;
+      transition: all 0.3s ease-in-out;
+    }
+  
+    .send-btn-Game:hover {
+      background-image:linear-gradient(131deg, #ff4d40, #f18c3e, #de3c3c, #e93515);
+      box-shadow: 0 0.8em 0.8em -0.4em #ef6d09ba;
+      background-size: 100% 100%;
+      transform: translateY(-0.15em);
+    }
+
+    

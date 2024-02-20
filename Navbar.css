@@ -1,0 +1,94 @@
+/* Navbar CSS */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f2d8c7;
+}
+
+.logo-container {
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.logo {
+  width: 50px; /* Adjust the size of the logo as needed */
+  height: auto;
+}
+
+.toggle-button {
+  display: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.toggle-button span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #090909;
+  margin: 6px 0;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  padding: 0;
+  padding-right: 80px;
+  margin: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-left: 20px;
+  padding-right: 20px;  /* Adjust the margin between menu items */
+  position: relative; /* Required for positioning the submenu */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #090909;
+  transition: color 0.3s;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-link:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* Submenu CSS */
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.10);
+  backdrop-filter: blur(3px);
+  z-index: 1;
+}
+
+.nav-item:hover .submenu {
+  display: block;
+}
+
+.submenu li {
+  padding: 10px;
+  list-style: none;
+}
+
+.submenu a {
+  color: #000000; /* Adjust the color as needed */
+  text-decoration: none;
+  font-size: large;
+  display: block;
+  transition: color 0.3s;
+}
+
+.submenu a:hover {
+  color: red; /* Adjust the hover color as needed */
+}
+
+
